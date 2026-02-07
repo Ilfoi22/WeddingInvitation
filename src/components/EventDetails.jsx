@@ -98,13 +98,13 @@ const EventDetails = () => {
                   <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 3 }}>
                     <LocationOnIcon sx={{ mr: 2, mt: 0.5, color: 'primary.main' }} />
                     <Typography variant="body1">
-                      <strong>Місце:</strong> Церква (адреса з Google Maps)
+                      <strong>Місце:</strong> Церква святих Ольги і Володимира
                     </Typography>
                   </Box>
 
                   <MapContainer>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.5404!2d30.5234!3d50.4501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDI3JzAwLjQiTiAzMMKwMzEnMjQuMiJF!5e0!3m2!1sen!2sua!4v1234567890"
+                      src="https://maps.google.com/maps?q=Церква+святих+Ольги+і+Володимира+Львів&output=embed"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -149,14 +149,19 @@ const EventDetails = () => {
 
                   <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 3 }}>
                     <LocationOnIcon sx={{ mr: 2, mt: 0.5, color: 'primary.main' }} />
-                    <Typography variant="body1">
-                      <strong>Місце:</strong> Ресторан (адреса з Google Maps)
-                    </Typography>
+                    <Box>
+                      <Typography variant="body1">
+                        <strong>Місце:</strong> Ресторан "Аркан"
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5, ml: 0 }}>
+                        смт. Брюховичі, вул. Курортна, 8а
+                      </Typography>
+                    </Box>
                   </Box>
 
                   <MapContainer>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.5404!2d30.5234!3d50.4501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDI3JzAwLjQiTiAzMMKwMzEnMjQuMiJF!5e0!3m2!1sen!2sua!4v1234567890"
+                      src="https://maps.google.com/maps?q=Ресторан+Аркан+Брюховичі+Курортна+8а&output=embed"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}

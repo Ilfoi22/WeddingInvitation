@@ -27,18 +27,18 @@ const StoryCard = styled(Paper)(({ theme }) => ({
 
 const ImagePlaceholder = styled(Box)(({ theme }) => ({
   width: '100%',
-  height: '400px',
+  height: '100%',
+  minHeight: '400px',
   borderRadius: theme.spacing(2),
   background: `linear-gradient(135deg, ${theme.palette.primary.light}, ${theme.palette.secondary.light})`,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  marginBottom: theme.spacing(3),
   backgroundImage: 'url(/our_photos/p2.jpg)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   [theme.breakpoints.down('md')]: {
-    height: '300px',
+    minHeight: '300px',
   },
 }));
 
@@ -75,7 +75,7 @@ const OurStory = () => {
               <Typography variant="body1" paragraph sx={{ lineHeight: 1.8, color: 'text.secondary' }}>
                 З кожним днем ми дізнавалися один про одного все більше, і розуміли, 
                 що хочемо провести разом все наше життя. Сьогодні ми готові розпочати 
-                нову главу нашої історії - як чоловік і дружина.
+                новий розділ нашої історії - як чоловік і дружина.
               </Typography>
               <Typography variant="body1" sx={{ lineHeight: 1.8, color: 'text.secondary', fontStyle: 'italic', mt: 2 }}>
                 "Любов - це не просто почуття, це рішення бути поруч кожен день"
