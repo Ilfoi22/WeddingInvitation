@@ -97,14 +97,19 @@ const EventDetails = () => {
 
                   <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 3 }}>
                     <LocationOnIcon sx={{ mr: 2, mt: 0.5, color: 'primary.main' }} />
-                    <Typography variant="body1">
-                      <strong>Місце:</strong> Церква святих Ольги і Володимира
-                    </Typography>
+                    <Box>
+                      <Typography variant="body1">
+                        <strong>Місце:</strong> Церква святих Ольги і Володимира
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5, ml: 0 }}>
+                        Бірки, Львівська область
+                      </Typography>
+                    </Box>
                   </Box>
 
                   <MapContainer>
                     <iframe
-                      src="https://maps.google.com/maps?q=Церква+святих+Ольги+і+Володимира+Львів&output=embed"
+                      src="https://maps.google.com/maps?q=49.9128321,23.9226796&hl=uk&z=16&output=embed"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -154,14 +159,14 @@ const EventDetails = () => {
                         <strong>Місце:</strong> Ресторан "Аркан"
                       </Typography>
                       <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5, ml: 0 }}>
-                        смт. Брюховичі, вул. Курортна, 8а
+                        Брюховичі, вул. Курортна, 8а
                       </Typography>
                     </Box>
                   </Box>
 
                   <MapContainer>
                     <iframe
-                      src="https://maps.google.com/maps?q=Ресторан+Аркан+Брюховичі+Курортна+8а&output=embed"
+                      src="https://maps.google.com/maps?q=49.905934,23.9455568&hl=uk&z=16&output=embed"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
